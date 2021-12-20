@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BankingApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="enter_amount_to_transfer">Enter Amount to Transfer</string>
+    <string name="enter_amount">Enter Amount</string>
+    <string name="transaction_successful">Transaction successful</string>
+    <string name="sender_info">Sender Info:</string>
+    <string name="receiver_info">Receiver Info:</string>
+    <string name="success">Success</string>
+    <string name="failure">Failure</string>
+</resources>
