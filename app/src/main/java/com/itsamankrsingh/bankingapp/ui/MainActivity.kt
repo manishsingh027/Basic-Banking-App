@@ -9,6 +9,9 @@ import com.itsamankrsingh.bankingapp.R
 import com.itsamankrsingh.bankingapp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
+    
+    var navController = null;
+    
     private lateinit var binding:ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -21,7 +24,7 @@ class MainActivity : AppCompatActivity() {
 
 
     override fun onSupportNavigateUp(): Boolean {
-        val navController = findNavController(R.id.fragment_container_view)
+        navController = findNavController(R.id.fragment_container_view)
         return navController.navigateUp() || super.onSupportNavigateUp()
     }
 }
