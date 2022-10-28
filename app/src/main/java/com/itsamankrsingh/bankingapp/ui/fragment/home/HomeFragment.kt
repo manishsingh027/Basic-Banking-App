@@ -14,6 +14,7 @@ class HomeFragment : Fragment() {
 
     private lateinit var binding:FragmentHomeBinding
     private var demo = null;
+     private var banking = null;
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
