@@ -13,6 +13,7 @@ import com.itsamankrsingh.bankingapp.databinding.FragmentHomeBinding
 class HomeFragment : Fragment() {
 
     private lateinit var binding:FragmentHomeBinding
+    private var demo = null;
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
